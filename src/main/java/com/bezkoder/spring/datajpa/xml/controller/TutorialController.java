@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import com.bezkoder.spring.datajpa.xml.model.Tutorial;
 import com.bezkoder.spring.datajpa.xml.repository.TutorialRepository;
 
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "http://localhost:9090")
 @RestController
 @RequestMapping("/api")
 public class TutorialController {
